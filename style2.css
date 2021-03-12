@@ -1,0 +1,99 @@
+body {
+   
+	background-color: skyblue;
+
+	background: 
+	     linear-gradient(
+	     	90deg,
+	     	rgba(0,0,0,100%),
+		    rgba(0,0,0,90%),
+		    rgba(0,0,0,80%),
+		    rgba(0,0,0,35%),
+		    rgba(0,0,0,0%)) no-repeat, 
+             url(img/pollo1.jpg);
+
+     background-size: cover;
+}
+h1 {
+	background-color: pink;
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.nav {
+	border-style: solid;
+	background-color: red;
+	/*border-width: 1px;*/
+	/*display:inline;*/
+	float: right; 
+	margin: 0px 5px;
+	/*padding: 5px;*/
+	width: 60%;
+	/*border-color: white;*/
+	/*text-align: right;*/
+}
+/*este es un div*/
+
+.panel {
+	width: 40%;
+	height:600px;
+	background-color: skyblue;
+	color: white;
+	opacity: 75%;
+    padding: 50px;
+    padding-top: 60px;
+}
+ul {
+	/*background-color: orange;*/
+	border-style: solid;
+	background-color: yellow;
+
+}
+li { 
+    float: right;
+    margin: 0px 20px;
+    /*width: 112px;*/
+    text-align: center;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    background-color: skyblue; 
+    display: inline-block;
+    border-style: solid;
+	background-color: brown;
+
+ }
+
+li:hover {
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 25px 10px; 
+    
+    }
+
+ a { 
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 90px;
+    font-family: 'Sofia';
+    font-size: 22px;
+  }
+
+a:hover { 
+    color: blue;
+
+ }
+/*
+section{
+	width: 650px;
+	height: 700px;
+	margin-left: 50px;
+	background-color: yellow;
+}*/
+p {
+	text-align: justify;
+}
+img { 
+    height: 100px
+    
+ }
